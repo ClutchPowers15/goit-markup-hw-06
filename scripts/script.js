@@ -1,8 +1,7 @@
-// !MENU
 const menu = document.querySelector(".btn-menu");
 const closeMenu = document.querySelector(".btn-close");
 const nav = document.querySelector(".box-nav");
-const header = document.querySelector(".header")
+const header = document.querySelector(".header");
 
 menu.addEventListener("click", () => {
   nav.classList.add("is-open");
@@ -18,7 +17,6 @@ closeMenu.addEventListener("click", () => {
   header.classList.remove("no-shadow");
 });
 
-// !MODAL WINDOW
 const orderButton = document.querySelector(".btn-order");
 const modalWindow = document.querySelector(".box-modal-bg");
 const closeModal = document.querySelector(".btn-modal");
@@ -30,5 +28,4 @@ orderButton.addEventListener("click", () => {
 closeModal.addEventListener("click", () => {
   modalWindow.classList.remove("is-open");
 });
-
-// !HEADER BOX-SHADOW HIDIND
+// / <!-- by ClutchPowers/aka/Shaq -->
